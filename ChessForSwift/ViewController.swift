@@ -92,10 +92,10 @@ class ViewController: UIViewController {
             self.view.addSubview(dyButton1[i])
         }
         i = 0;
-        dyButton1[i].setTitle("電腦持黑", for: .normal)
+        dyButton1[i].setTitle("AI持黑", for: .normal)
         dyButton1[i].addTarget(self, action: #selector(self.ClickButtonAISetBlack), for: .touchUpInside)
         i = 1;
-        dyButton1[i].setTitle("電腦持白", for: .normal)
+        dyButton1[i].setTitle("AI持白", for: .normal)
         dyButton1[i].addTarget(self, action: #selector(self.ClickButtonAISetWhite), for: .touchUpInside)
         i = 2;
         dyButton1[i].setTitle("重新", for: .normal)

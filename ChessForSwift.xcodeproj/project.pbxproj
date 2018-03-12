@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931CB9BF201851C60039A04E /* extensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CB9BE201851C60039A04E /* extensionString.swift */; };
+		931CB9C320185BAF0039A04E /* chessStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CB9C220185BAF0039A04E /* chessStatus.swift */; };
+		931CB9C520185CC80039A04E /* chessCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CB9C420185CC80039A04E /* chessCondition.swift */; };
+		931CB9C720185EA00039A04E /* chessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CB9C620185EA00039A04E /* chessData.swift */; };
+		931CB9C920185FDE0039A04E /* chessAILevel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CB9C820185FDE0039A04E /* chessAILevel1.swift */; };
 		93D905A81FF0927E00F52CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D905A71FF0927E00F52CC9 /* AppDelegate.swift */; };
 		93D905AA1FF0927E00F52CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D905A91FF0927E00F52CC9 /* ViewController.swift */; };
 		93D905AD1FF0927E00F52CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D905AB1FF0927E00F52CC9 /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		931CB9BE201851C60039A04E /* extensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionString.swift; sourceTree = "<group>"; };
+		931CB9C220185BAF0039A04E /* chessStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chessStatus.swift; sourceTree = "<group>"; };
+		931CB9C420185CC80039A04E /* chessCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chessCondition.swift; sourceTree = "<group>"; };
+		931CB9C620185EA00039A04E /* chessData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chessData.swift; sourceTree = "<group>"; };
+		931CB9C820185FDE0039A04E /* chessAILevel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chessAILevel1.swift; sourceTree = "<group>"; };
 		93D905A41FF0927E00F52CC9 /* ChessForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D905A71FF0927E00F52CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93D905A91FF0927E00F52CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +113,11 @@
 				93D905AE1FF0927E00F52CC9 /* Assets.xcassets */,
 				93D905B01FF0927E00F52CC9 /* LaunchScreen.storyboard */,
 				93D905B31FF0927E00F52CC9 /* Info.plist */,
+				931CB9BE201851C60039A04E /* extensionString.swift */,
+				931CB9C220185BAF0039A04E /* chessStatus.swift */,
+				931CB9C420185CC80039A04E /* chessCondition.swift */,
+				931CB9C620185EA00039A04E /* chessData.swift */,
+				931CB9C820185FDE0039A04E /* chessAILevel1.swift */,
 			);
 			path = ChessForSwift;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931CB9C520185CC80039A04E /* chessCondition.swift in Sources */,
+				931CB9C720185EA00039A04E /* chessData.swift in Sources */,
 				93D905AA1FF0927E00F52CC9 /* ViewController.swift in Sources */,
+				931CB9C320185BAF0039A04E /* chessStatus.swift in Sources */,
 				93D905A81FF0927E00F52CC9 /* AppDelegate.swift in Sources */,
+				931CB9BF201851C60039A04E /* extensionString.swift in Sources */,
+				931CB9C920185FDE0039A04E /* chessAILevel1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92EMCL6FHU;
 				INFOPLIST_FILE = ChessForSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.ChessForSwift";
@@ -441,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92EMCL6FHU;
 				INFOPLIST_FILE = ChessForSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.ChessForSwift";
